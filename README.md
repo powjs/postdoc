@@ -1,2 +1,7 @@
-# postdoc
-ECMAScript 后置文档规范即实现
+# Postdoc
+
+ECMAScript 后置文档注释, WIP
+
+## License
+
+MIT License <https://github.com/powjs/postdoc/blob/master/LICENSE>

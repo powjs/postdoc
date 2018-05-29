@@ -1,0 +1,21 @@
+{
+  "name": "postdoc",
+  "version": "0.0.0",
+  "description": "The ECMAScript document system with post-comment style",
+  "main": "index.mjs",
+  "repository": "git@github.com:powjs/postdoc.git",
+  "author": "YU HengChun <achun.shx@qq.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "mocha -r node_modules/esm -r node_modules/chai/register-expect -u tdd spec/*.mjs"
+  },
+  "devDependencies": {
+    "@babel/parser": "^7.0.0-beta.48",
+    "chai": "^4.1.2",
+    "esm": "^3.0.39",
+    "mocha": "^5.2.0"
+  }
+}
