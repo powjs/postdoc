@@ -12,6 +12,7 @@
       "args": [
         "-r", "${workspaceFolder}/node_modules/esm",
         "-r", "${workspaceFolder}/node_modules/chai/register-expect",
+        "-r", "${workspaceFolder}/node_modules/chai/register-should",
         "-u",
         "tdd",
         "--timeout",

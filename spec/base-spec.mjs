@@ -1,7 +1,7 @@
 import { parse } from "@babel/parser";
-import Postdoc from '..';
-describe('Postdoc', () => {
+import postdoc from '..';
+describe('postdoc', () => {
   it('should with method postdoc', () => {
-    expect(Postdoc).to.be.an('function');
+    postdoc.should.to.be.a('function');
   });
 });
