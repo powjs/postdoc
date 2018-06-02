@@ -1,11 +1,11 @@
-import {Postdoc} from './interfaces';
+import {Postdoc} from './types';
 import deprecate from './to-deprecate';
 import example   from './to-example';
-import group     from './to-group';
 import issue     from './to-issue';
 import license   from './to-license';
 import list      from './to-list';
 import oops      from './to-oops';
+import normal    from './to-normal';
 
 class to extends Postdoc {
   constructor() {

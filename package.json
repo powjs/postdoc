@@ -9,11 +9,15 @@
   "engines": {
     "node": ">=6.0.0"
   },
+  "files": [
+    "./esm"
+  ],
   "scripts": {
     "test": "mocha -r node_modules/esm -r node_modules/chai/register-expect -u tdd spec/*.mjs"
   },
   "devDependencies": {
     "@babel/parser": "^7.0.0-beta.48",
+    "@babel/traverse": "^7.0.0-beta.49",
     "chai": "^4.1.2",
     "esm": "^3.0.39",
     "mocha": "^5.2.0"
